@@ -92,22 +92,22 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 | Day | Project                   | Progress                                                                                                                                                        | Link                                                                                                                    |
 |-----|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | 48  | Browser Bot with Selenium | Intro to Selenium Library. The lesson unfortunately is currently out of date so I watched the video, did some basic practice but didn't complete the challenge. | [Repo]() |
-| 49  | Bot: Linkedin             | Similarly to day 48, the code is now old :( I studied the example and went over the docs. I might come later and do my own version of it.                       | [Repo]()     |
-| 50  | Bot: Tinder               | ...                                                                                                                                                             | [Repo]()       |
-| 51  | Bot: Twitter              | ...                                                                                                                                                             | [Repo]()      |
-| 52  | Bot: Instagram            | ...                                                                                                                                                             | [Repo]()    |
-| 53  | Bot: Data Entry           | ...                                                                                                                                                             | [Repo]()   |
+| 49  | Bot: Linkedin             | Similarly to day 48.                                                                 | [Repo]()     |
+| 50  | Bot: Tinder               | Auto Tinder Swiping Bot                                                              | [Repo]()     |
+| 51  | Bot: Twitter              | Internet Speed Twitter Complaint Bot                                                 | [Repo]()     |
+| 52  | Bot: Instagram            | Instagram Follower Bot, which automatically follow a specific user followers         | [Repo]()     |
+| 53  | Bot: Data Entry           | Web Scraping Capstone - Data Entry Job Automation                                    | [Repo()      |
 
 ### Web dev with Flask 🌶
 | Day | Project               | Progress                                                                                                                                | Link                                                                                                              |
 |-----|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| 54  | Intro to Flask        | Refresh on Flask! I worked on Flask a looong time ago, so it's nice to use it again and learn new things about it I didn't know before. | [Repo]()              |
+| 54  | Intro to Flask        | Refresh on Flask!. | [Repo]()              |
 | 55  | Flask: Higher-Lower   | Dynamic URLs, how to debug, use of PIN.                                                                                                 | [Repo]() |
 | 56  | Flask: Name Card Site | Rendering HTML files, serving static files, use website templates.                                                                      | [Repo]()    |
 | 57  | Flask: Blog I         | Jinja, URL building, dynamic HTML Pages.                                                                                                | [Repo]()         |
 | 58  | Bootstrap: Tindog     | Five hour long 🙇🏻‍ web foundations lesson where we refresh on Bootstrap's magic abilities and create a website from scratch!          | [Repo]()          |
 
-## Advanced  🐔
+## Advanced  🏆
 ### Web dev with Flask 🌶 cont. 
 | Day | Project                  | Progress                                                                                                                                                    | Link                                                                                                               |
 |-----|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
@@ -138,27 +138,27 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 | 79  | History of handwashing          | Intro to histograms, Kernel Density Estimates, SciPy.       | [Repo]()    |
 | 80  | Predict Housing Market          | Intro on how to run a multivariable regression.             | [Repo]()    |
 
-
-## Portfolio material 📚
+## Professional 👨‍💻
+### Portfolio material 📚
 | Day | Project              | Description                             | Link                                                                                                 |
 |-----|----------------------|-----------------------------------------|------------------------------------------------------------------------------------------------------|
 | 81  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 82  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 83  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 84  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 85  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 86  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 87  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 88  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 89  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 90  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 91  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 92  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 93  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 94  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 95  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 96  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 97  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 98  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 99  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 100  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
+| 82  | Portfolio Website | A website to show off your skills. | [Repo]() |
+| 83  | Tic Tac Toe | Built a text-based version of the Tic Tac Toe game. | [Repo]() |
+| 84  | Image Watermarking Desktop App | A program where you can upload images and add a watermark | [Repo]() |
+| 85  | Typing Speed Test App | A Tkinter GUI desktop application that tests your typing speed. | [Repo]() |
+| 86  | Breakout: The Famous Arcade Game | Using Python Turtle, build a clone of the 80s hit game Breakout. | [Repo]() |
+| 87  | Cafe and Wifi Website | Built a website that lists cafes with wifi and power for remote working. | [Repo]() |
+| 88  | To Do Agenda App | Built a todo list website with Flask. | [Repo]() |
+| 89  | Disappearing Text Writing App | A Tkinter GUI desktop application that clear your writings if you stop typing! | [Repo]() |
+| 90  | Convert PDF to Audiobook | A program where you can upload a pdf file and it will read it for you! | [Repo]() |
+| 91  | Image to Color List | A Tkinter GUI desktop application where you can upload an image and it will generate it's palette.  | [Repo]() |
+| 92  | Built a custom web scraper to collect data | ... | [Repo]() |
+| 93  | Google Dinosaur Game Bot | Automate the Google Dinosaur Game. | [Repo]() |
+| 94  | Space Invaders |  Using Python Turtle, build Space Invaders Game.
+| 95  | Custom API | Built a custom website using an API. | [Repo]() |
+| 96  | An Online Shop | An eCommerce website with payment processing. | [Repo]() |
+| 97  | Automate a task | A bot that check an online shop panel for orders and if you have any it will send you an email. | [Repo]() |
+| 98  | Analyzing and Visualizing the Space Race | Working with google colab to visualize data. | [Repo]() |
+| 99  | Analyzing Deaths Involving Police in the United States | Working with google colab to visualize data. | [Repo]() |
+| 100  | Predicting Earnings using Multivariable Regression | Working with google colab to visualize data. | [Repo]() |
