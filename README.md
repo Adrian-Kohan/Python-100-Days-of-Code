@@ -29,7 +29,7 @@ At the end of the course, the objective is to obtain a level of professional flu
 
 The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/)
 
-## Beginner 🐣
+## Beginner 👨🏻‍🎓
 | Day | Project                   | Progress                                                                                                              | Link                                                                                                                                                               |
 |-----|---------------------------|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1   | Band Name Generator       | Corny first project to refresh on user input                                                                          | [Repo]()                                                |
@@ -47,7 +47,7 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 | 13  | N/A                       | Completed various debugging exercises, no new material learned                                                        | N/A                                                                                                                                                                |
 | 14  | Higher Lower Game         | Apply previous knowledge and refreshed debugging skills!                                                              | [Repo]()                                              |
 
-## Intermediate 🐥
+## Intermediate 🏋🏻‍♂️
 
 | Day   | Project                                      | Progress                                                                                                                                                    | Link                                                                                                                                                                                                                          |
 |-------|----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 | 31    | Flash Card Study app!                        | Apply knowledge from the last 7 days: Work with files, pandas, tkinter.                                                                                     | [Repo]()                                                                                                     |
 
 
-## Intermediate++ 🐤
+## Intermediate++ 💪
 
 ### SMTP, APIs 📨
 | Day   | Project                    | Progress                                                                                                                                                         | Link                                                                                                                             |
@@ -88,7 +88,7 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 | 46    | Spotify Playlist           | Apply knowledge from the last few days to scrape data from top 100 songs to then create a Spotify Playlist using the Spotipy library.                            | [Repo]()          |
 | 47    | Price Tracker              | Use beautiful 🥣 to scrape data, keep track of data and use smtp to alert the user when the threshold has been reached.                                          | [Repo]()             |
 
-### 💻 Web Scraping with Selenium (Deprecated Code) 👩🏻‍
+###  Web Scraping with Selenium (Deprecated Code) 💻
 | Day | Project                   | Progress                                                                                                                                                        | Link                                                                                                                    |
 |-----|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | 48  | Browser Bot with Selenium | Intro to Selenium Library. The lesson unfortunately is currently out of date so I watched the video, did some basic practice but didn't complete the challenge. | [Repo]() |
