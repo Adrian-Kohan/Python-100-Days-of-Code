@@ -30,14 +30,14 @@ At the end of the course, the objective is to obtain a level of professional flu
 The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/)
 
 ## Beginner 👨🏻‍🎓
-| Day | Project                   | Progress                                                                                                              | Link                                                                                                                                                               |
+| Day | Project                   | Description                                                                                                              | Link                                                                                                                                                               |
 |-----|---------------------------|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1   | Band Name Generator       | Corny first project to refresh on user input                                                                          | [Day 1](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day1)                                                |
-| 2   | Tip Calculator            | Refresh on user input and fun maths!                                                                                  | [Day 2](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day2)                                                     |
-| 3   | Choose your own adventure | Not much learned, just a brain teaser on how to use (inefficient) conditional statements                              | [Repo]()                                                            |
-| 4   | Rock Paper Scissors       | Same as day 3                                                                                                         | [Repo]()                                                |
-| 5   | Random Password Generator | Learned how to shuffle within a list                                                                                  | [Repo]()                                                 |
-| 6   | 2D Maze Solver            | Refresh on functions                                                                                                  | [Reeborg's World]() |
+| 1   | Band Name Generator       | Working with Variables in Python to Manage Data.                                                                          | [Day 1](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day1)                                                |
+| 2   | Tip Calculator            | Understanding Data Types and How to Manipulate Strings.                                                                                  | [Day 2](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day2)                                                     |
+| 3   | Choose your own adventure | Control Flow and Logical Operators                              | [Repo]()                                                            |
+| 4   | Rock Paper Scissors       | Randomisation and Python Lists                                                                                                         | [Repo]()                                                |
+| 5   | Random Password Generator | Python Loops, Learned how to shuffle within a list                                                                                  | [Repo]()                                                 |
+| 6   | 2D Maze Solver            | Python Functions & Karel                                                                                                  | [Reeborg's World]() |
 | 7   | Hangman!                  | Refresh on planning code, importing modules                                                                           | [Repo]()                                                            |
 | 8   | Caesar Cipher             | Learned about Positional vs. Keyword Arguments                                                                        | [Repo]()                                                      |
 | 9   | Silent Auction            | Refresh on dictionaries and nested structures                                                                         | [Repo]()                                                     |
@@ -49,7 +49,7 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 
 ## Intermediate 🏋🏻‍♂️
 
-| Day   | Project                                      | Progress                                                                                                                                                    | Link                                                                                                                                                                                                                          |
+| Day   | Project                                      | Description                                                                                                                                                    | Link                                                                                                                                                                                                                          |
 |-------|----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 15    | Coffee Machine Menu                          | Continue practicing previous knowledge and started using pycharm again!                                                                                     | [Repo]()                                                                                                           |
 | 16    | Coffee Machine Menu - OOP                    | Intro (refresh) to OOP! Re-did the previous assignment, this time using OOP.                                                                                | [Repo]()                                                                                                       |
@@ -72,7 +72,7 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 ## Intermediate++ 💪
 
 ### SMTP, APIs 📨
-| Day   | Project                    | Progress                                                                                                                                                         | Link                                                                                                                             |
+| Day   | Project                    | Description                                                                                                                                                         | Link                                                                                                                             |
 |-------|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | 32    | Automated Birthday wisher  | Intro to using smtp in python, refresh on Datetime module.                                                                                                       | [Repo]() |
 | 33    | ISS Overhead Notifier      | Intro to APIs, how to read API docs, retrieve data using GET requests.                                                                                           | [Repo]()             |
@@ -89,7 +89,7 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 | 47    | Price Tracker              | Use beautiful 🥣 to scrape data, keep track of data and use smtp to alert the user when the threshold has been reached.                                          | [Repo]()             |
 
 ###  Web Scraping with Selenium (Deprecated Code) 💻
-| Day | Project                   | Progress                                                                                                                                                        | Link                                                                                                                    |
+| Day | Project                   | Description                                                                                                                                                        | Link                                                                                                                    |
 |-----|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | 48  | Browser Bot with Selenium | Intro to Selenium Library. The lesson unfortunately is currently out of date so I watched the video, did some basic practice but didn't complete the challenge. | [Repo]() |
 | 49  | Bot: Linkedin             | Similarly to day 48.                                                                 | [Repo]()     |
@@ -99,7 +99,7 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 | 53  | Bot: Data Entry           | Web Scraping Capstone - Data Entry Job Automation                                    | [Repo()      |
 
 ### Web dev with Flask 🌶
-| Day | Project               | Progress                                                                                                                                | Link                                                                                                              |
+| Day | Project               | Description                                                                                                                                | Link                                                                                                              |
 |-----|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | 54  | Intro to Flask        | Refresh on Flask!. | [Repo]()              |
 | 55  | Flask: Higher-Lower   | Dynamic URLs, how to debug, use of PIN.                                                                                                 | [Repo]() |
@@ -109,7 +109,7 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 
 ## Advanced  🏆
 ### Web dev with Flask 🌶 cont. 
-| Day | Project                  | Progress                                                                                                                                                    | Link                                                                                                               |
+| Day | Project                  | Description                                                                                                                                                    | Link                                                                                                               |
 |-----|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | 59  | Blog II                  | Apply Flask, Bootstrap to make a revamped blog with better styling.                                                                                         | [Repo]() |
 | 60  | Blog cont.: Contact Form | Continue to work on blog. Focus on the Contact form and POST/GET requests within html/Flask                                                                 | [Repo]() |
@@ -125,7 +125,7 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 | 70  | Finale: Publish Blog     | Quick tutorial on how to publish the blog using heroku and git.                                                                                             | [Site!!]() |
 
 ### Data Science with Google Colab 
-| Day | Project                         | Progress                                                    | Link                                                                                                      |
+| Day | Project                         | Description                                                    | Link                                                                                                      |
 |-----|---------------------------------|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 71  | Salaries by College Major       | Pandas refresh and intro to Jupyter Notebook/Colaboratory.  | [Repo]() |
 | 72  | Programming Language popularity | Build up on previous day's knowledge - Intro to matplotlib. | [Repo]()    |
