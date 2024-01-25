@@ -124,7 +124,7 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 | 69  | Blog IV                  | Build up on the Flask Blog project. Add user authentication, protect paths.                                                                                 | [Repo]() |
 | 70  | Finale: Publish Blog     | Quick tutorial on how to publish the blog using heroku and git.                                                                                             | [Site!!]() |
 
-### Data Science with Jupyter Notebooks 🪐
+### Data Science with Google Colab 
 | Day | Project                         | Progress                                                    | Link                                                                                                      |
 |-----|---------------------------------|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 71  | Salaries by College Major       | Pandas refresh and intro to Jupyter Notebook/Colaboratory.  | [Repo]() |
