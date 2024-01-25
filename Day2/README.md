@@ -8,3 +8,4 @@
 ## Tip Calculator
 
 ## Remaining days
+https://github.com/Adrian-Kohan/Python-100-Days-of-Code/blob/main/Day2/remaining%20days.gif
