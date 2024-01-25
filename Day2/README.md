@@ -6,6 +6,7 @@
 - Mathematical Operations in Python
 - Number Manipulation and F Strings in Python
 ## Tip Calculator
-
+![day02](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/blob/main/Day2/tip%20calculator.gif)
 ## Remaining days
-https://github.com/Adrian-Kohan/Python-100-Days-of-Code/blob/main/Day2/remaining%20days.gif
+![day02](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/blob/main/Day2/remaining%20days.gif)
+
