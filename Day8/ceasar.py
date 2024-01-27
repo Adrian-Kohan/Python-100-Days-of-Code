@@ -36,17 +36,6 @@ def caesar(sh, txt, direct):
             new_txt += alphabet[new_alphabet.index(ch)]
         print(f"The decoded text is: {new_txt}")
 
-# or we can duplicate the alphabet ([a-z,a-z]) and ...
-# def caesar(sh, txt, direct):
-    # end_txt = ''
-    # if direct == "decode":
-    #   sh *= -1
-    # for letter in txt:
-    #   position = alphabet.index(letter)
-    #   new_position = position + sh
-    #   end_txt += alphabet[new_position]
-    # print(f"The {direct}d text is {txt}")
-
 
 caesar(sh=shift, txt=text, direct=direction)
 
