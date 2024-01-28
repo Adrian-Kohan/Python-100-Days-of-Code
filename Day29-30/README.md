@@ -1,4 +1,4 @@
-# Day 29 & 30 - Building a Password Manager GUI App with Tkinter, Errors, Exceptions and JSON Data: Improving the Password Manager
+# Day 29 & 30 - Building a Password Manager GUI App with Tkinter: Errors, Exceptions and JSON Data
 ## Concepts Practised in Day 29
 - Working with Images and Setting up the Canvas
 - Use grid() and columnspan to Complete the User Interface
