@@ -12,4 +12,4 @@
 - KeyError Handling
 - Write, read and update JSON data in the Password Manager
 ## Password Manager 
-![day30](password_generator.gif)
+![day30](password-generator.gif)
