@@ -9,8 +9,8 @@ account_sid = "************"
 auth_token = os.environ.get("AUTH_TOKEN")
 
 weather_params = {
-    "lat": "YOUR LATITUDE",
-    "lon": "YOUR LONGITUDE",
+    "lat": 51.507351,
+    "lon": -0.127758, 
     "appid": api_key,
     "exclude": "current,minutely,daily"
 }
@@ -35,7 +35,7 @@ if will_rain:
     message = client.messages \
         .create(
         body="It's going to rain today. Remember to bring an ☔️",
-        from_="YOUR TWILIO VIRTUAL NUMBER",
-        to="YOUR TWILIO VERIFIED REAL NUMBER"
+        from_="TWILIO VIRTUAL NUMBER",
+        to="TWILIO VERIFIED REAL NUMBER"
     )
     print(message.status)
