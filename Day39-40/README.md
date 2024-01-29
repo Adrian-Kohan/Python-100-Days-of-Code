@@ -2,7 +2,7 @@
 ## Concepts Practised
 - OOP
 - HTTP Requests
-- Using API to Send Telegram Alerts
+- Using API to Send Message via Twilio SMS API
 - Autofilling dates using strftime function
 ## Flight Deal Finder
 ![day39]()
