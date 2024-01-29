@@ -2,8 +2,8 @@ import requests
 from datetime import datetime
 import os
 
-APP_ID = os.environ["f0ba4105"]
-API_KEY = os.environ["f1128b890acbd0823425736390ed9b0e"]
+APP_ID = os.environ["*************"]
+API_KEY = os.environ["************"]
 today = datetime.now()
 
 nut_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
