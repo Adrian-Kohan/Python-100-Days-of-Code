@@ -8,11 +8,11 @@ COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-NEWS_API_KEY = "8acad88011e94b2192e98dc991b45bd2"
-STOCK_API_KEY = "FD1MWITA124AHQUF"
+NEWS_API_KEY = "****************"
+STOCK_API_KEY = "***************"
 
-account_sid = os.environ["ACd514914244a9072d2184d04c875562cd"]
-auth_token = os.environ["65ea19c53faa0a71f66e7b7a6fd35bae"]
+account_sid = os.environ["****************************"]
+auth_token = os.environ["*****************************"]
 
 stock_parameters = {
     "function": "TIME_SERIES_DAILY",
@@ -24,8 +24,7 @@ response = requests.get(url=STOCK_ENDPOINT, params=stock_parameters)
 stock_data = response.json()["Time Series (Daily)"]
 stock_data_list = [value for (key, value) in stock_data.items()]
 
-# HINT 1: Get the closing price for yesterday and the day before yesterday. Find the positive difference
-# between the two prices. e.g. 40 - 20 = -20, but the positive difference is 20.
+
 yesterday_closing_price = stock_data_list[0]["4. close"]
 the_day_before_yesterday_price = stock_data_list[1]["4. close"]
 difference = float(yesterday_closing_price) - float(the_day_before_yesterday_price)
@@ -58,8 +57,8 @@ client = Client(account_sid, auth_token)
 if abs(diff_percent) > 3:
     for m in message_list:
         message = client.messages.create(
-            from_="+12295959260",
+            from_="+**********",
             body=m,
-            to="+989385356909"
+            to="+**********"
             )
         print(message.status)
