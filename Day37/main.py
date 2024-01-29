@@ -1,10 +1,9 @@
 import requests
 from datetime import datetime
 
-# address = https://pixe.la/v1/users/adriankohan/graphs/graphnum1.html
-TOKEN = "asvajsda39q92qejla"
-USERNAME = "adriankohan"
-GRAPH_ID = "graphnum1"
+TOKEN = "*****"
+USERNAME = "******"
+GRAPH_ID = "*****"
 
 
 pixela_endpoint = "https://pixe.la/v1/users"
@@ -16,6 +15,7 @@ user_params = {
     "notMinor":"yes",
 }
 
+# POST
 # response = requests.post(url=pixela_endpoint, json=user_params)
 # print(response.text)
 
@@ -53,10 +53,12 @@ update_params = {
     "quantity": "10",
 }
 
+# PUT
 # response = requests.put(url=update_pixel_endpoint, json=update_params, headers=headers)
 # print(response.text)
 
 
+# DELETE
 delete_endpoint = f"{pixel_endpoint}/{today.strftime('%Y%m%d')}"
 response = requests.delete(url=delete_endpoint, headers=headers)
 print(response.text)
