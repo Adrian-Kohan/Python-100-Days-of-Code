@@ -6,8 +6,8 @@ from spotipy.oauth2 import SpotifyOAuth
 
 date = input("Which year do you want to travel to? Type the gate in this format YY-MM-DD: ")
 URL = f"https://www.billboard.com/charts/hot-100/{date}"
-CLIENT_ID = "bc603c291a48412f92e7208465d66dfe"
-CLIENT_SECRET = "58a8fd2c410c4d388d55c9e0bc76fad8"
+CLIENT_ID = "***********"
+CLIENT_SECRET = "**********"
 
 response = requests.get(URL)
 web_data = response.text
