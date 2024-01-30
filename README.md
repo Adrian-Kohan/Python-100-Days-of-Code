@@ -90,12 +90,12 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 ###  Web Scraping with Selenium (Deprecated Code) 💻
 | Day | Project                   | Description                                                                                                                                                        | Link                                                                                                                    |
 |-----|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| 48  | Browser Bot with Selenium | Intro to Selenium Library. The lesson unfortunately is currently out of date so I watched the video, did some basic practice but didn't complete the challenge. | [Repo]() |
-| 49  | Bot: Linkedin             | Similarly to day 48.                                                                 | [Repo]()     |
-| 50  | Bot: Tinder               | Auto Tinder Swiping Bot                                                              | [Repo]()     |
-| 51  | Bot: Twitter              | Internet Speed Twitter Complaint Bot                                                 | [Repo]()     |
-| 52  | Bot: Instagram            | Instagram Follower Bot, which automatically follow a specific user followers         | [Repo]()     |
-| 53  | Bot: Data Entry           | Web Scraping Capstone - Data Entry Job Automation                                    | [Repo()      |
+| 48  | Browser Bot with Selenium | Intro to Selenium Library.                                                           | [Day 48](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day48) |
+| 49  | Bot: Linkedin             | Similarly to day 48.                                                                 | [Day 49](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day49)     |
+| 50  | Bot: Tinder               | Auto Tinder Swiping Bot                                                              | [Day 50](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day50)     |
+| 51  | Bot: Twitter              | Internet Speed Twitter Complaint Bot                                                 | [Day 51](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day51)     |
+| 52  | Bot: Instagram            | Instagram Follower Bot, which automatically follow a specific user followers         | [Day 52](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day52)     |
+| 53  | Bot: Data Entry           | Web Scraping Capstone - Data Entry Job Automation                                    | [Day 53](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day53)      |
 
 ### Web dev with Flask 🌶
 | Day | Project               | Description                                                                                                                                | Link                                                                                                              |
