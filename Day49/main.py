@@ -1,28 +1,57 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import NoSuchElementException
 import time
 
-urls = [
+MY_EMAIL = "f.kohansal.fk@gmail.com"
+MY_PASSWORD = "*******"
+MY_PHONE_NUMBER = "9385356909"
 
-    'https://www.linkedin.com/jobs/search/?currentJobId=3692522261&f_AL=true&f_E=1%2C2&f_WT=2&geoId=103644278&keywords=python%20developer&location=United%20States&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true'
+service = Service(r"C:/Users/Adrian/Downloads/Compressed/chromedriver-win64/chromedriver-win64/chromedriver.exe")
+driver = webdriver.Chrome(service=service)
+driver.get("https://www.linkedin.com/jobs/search/?currentJobId=3812723717&geoId=101174742&keywords=senior%20frontend%20developer&location=Canada&origin=JOB_SEARCH_PAGE_KEYWORD_AUTOCOMPLETE&refresh=true")
 
-]
+# Sign-in
+driver.find_element(by=By.XPATH, value='/html/body/div[1]/header/nav/div/a[2]').click()
+time.sleep(2)
+email = driver.find_element(by=By.NAME, value="session_key")
+email.send_keys(MY_EMAIL)
+password = driver.find_element(by=By.NAME, value="session_password")
+password.send_keys(MY_PASSWORD)
+driver.find_element(by=By.XPATH, value='//*[@id="organic-div"]/form/div[3]/button').click()
+time.sleep(10)
 
-s = Service(r"C:/Users/Adrian/Downloads/Compressed/chromedriver-win64/chromedriver-win64/chromedriver.exe")
+# Scan available jobs
+jobs = driver.find_elements(by=By.CLASS_NAME, value='job-card-list__title')
+jobs_available = [job.text for job in jobs]
+print(jobs_available)
 
-for url in urls:
-    driver = webdriver.Chrome(service=s)
-    driver.get(url)
-    time.sleep(5)
-    sign_in = driver.find_element(By.CLASS_NAME, "job-alert-redirect-section__cta")
-    sign_in.click()
-    username = driver.find_element(By.ID, "username")
-    username.send_keys("f.kohansal.fk@gmail.com")
-    password = driver.find_element(By.ID, "password")
-    password.send_keys("Mbmnaak1997")
-    enter = driver.find_element(By.LINK_TEXT, "Sign in")
-    enter.click()
-    time.sleep(5)
-    save = driver.find_element(By.LINK_TEXT, "Save")
+# Select job posting and click on apply
+while jobs_available:
+    posting_num = 0
+    try:
+        driver.find_element(by=By.LINK_TEXT, value=f'{jobs_available[posting_num]}').click()
+        time.sleep(10)
+        driver.find_element(by=By.CLASS_NAME, value="jobs-s-apply").click()
+    except NoSuchElementException:
+        posting_num += 1
+        driver.find_element(by=By.LINK_TEXT, value=f'{jobs_available[posting_num]}').click()
+        time.sleep(10)
+        driver.find_element(by=By.CLASS_NAME, value="jobs-s-apply").click()
+    finally:
+        # Complete application
+        jobs_available.remove(jobs_available[posting_num])
+        try:
+            time.sleep(2)
+            phone_num = driver.find_element(by=By.XPATH, value='/html/body/div[3]/div/div/div[2]/div/div[2]/form/div/div/div[5]/div/div/div[1]/div/input')
+            phone_num.send_keys(MY_PHONE_NUMBER)
+            time.sleep(10)
+            driver.find_element(by=By.CSS_SELECTOR, value='footer button').click()
+            time.sleep(5)
+            driver.find_element(by=By.XPATH, value='[aria-label="Review your application"]').click()
+            time.sleep(10)
+            driver.find_element(by=By.CSS_SELECTOR, value='[aria-label="Submit application"]').click()
+        except NoSuchElementException:
+            print('Cannot apply, skipped')
+    print("Work complete")
