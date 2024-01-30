@@ -3,10 +3,11 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import ElementClickInterceptedException, NoSuchElementException
 from time import sleep
 
-FB_EMAIL = YOUR FACEBOOK LOGIN EMAIL
-FB_PASSWORD = YOUR FACEBOOK PASSWORD
+FB_EMAIL = "*********"
+FB_PASSWORD = "**********"
 
-chrome_driver_path = YOUR CHROME DRIVER PATH
+chrome_driver_path = "C:/Users/Adrian/Downloads/Compressed/chromedriver-win64/chromedriver-win64/chromedriver.exe"
+
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 driver.get("http://www.tinder.com")
