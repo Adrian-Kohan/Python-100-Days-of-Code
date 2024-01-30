@@ -11,11 +11,3 @@ main_list = [movie.getText() for movie in list_of_100_movies]
 for i in range(99, -1, -1):
     with open("movies.txt", "a") as file:
         file.write(f"{main_list[i]}\n")
-
-
-
-# with open("website.html", encoding="utf8") as file:
-#     data = file.read()
-#
-# soup = BeautifulSoup(data, "html.parser")
-# print(soup.title)
