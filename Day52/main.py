@@ -6,8 +6,8 @@ from selenium.common.exceptions import ElementClickInterceptedException
 import time
 
 URL = "https://www.instagram.com/"
-USERNAME = "Adrian_Kohan_"
-PASSWORD = "mbmnaak1997"
+USERNAME = "*********"
+PASSWORD = "*********"
 s = Service(r"C:/Users/Adrian/Downloads/Compressed/chromedriver-win64/chromedriver-win64/chromedriver.exe")
 
 
