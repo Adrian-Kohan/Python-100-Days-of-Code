@@ -100,11 +100,11 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 ### Web dev with Flask 🌶
 | Day | Project               | Description                                                                                                                                | Link                                                                                                              |
 |-----|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| 54  | Intro to Flask        | Refresh on Flask!. | [Repo]()              |
-| 55  | Flask: Higher-Lower   | Dynamic URLs, how to debug, use of PIN.                                                                                                 | [Repo]() |
-| 56  | Flask: Name Card Site | Rendering HTML files, serving static files, use website templates.                                                                      | [Repo]()    |
-| 57  | Flask: Blog I         | Jinja, URL building, dynamic HTML Pages.                                                                                                | [Repo]()         |
-| 58  | Bootstrap: Tindog     | Five hour long 🙇🏻‍ web foundations lesson where we refresh on Bootstrap's magic abilities and create a website from scratch!          | [Repo]()          |
+| 54  | Intro to Flask        | Introduction to Web Development with Flask. | [Day 54](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day54)              |
+| 55  | Flask: Higher-Lower   | Dynamic URLs, how to debug, use of PIN.                                                                                                 | [Day 55](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day55) |
+| 56  | Flask: Name Card Site | Rendering HTML files, serving static files, use website templates.                                                                      | [Day 56](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day56)    |
+| 57  | Flask: Blog I         | Jinja, URL building, dynamic HTML Pages.                                                                                                | [Day 57](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day57)         |
+| 58  | Bootstrap: Tindog     | Five hour long 🙇🏻‍ web foundations lesson where we refresh on Bootstrap's magic abilities and create a website from scratch!          | [Day 58](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day58)          |
 
 ## Advanced  🏆
 ### Web dev with Flask 🌶 cont. 
