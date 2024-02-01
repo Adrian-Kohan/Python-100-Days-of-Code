@@ -34,19 +34,12 @@ def contact():
 
 @app.route("/form-entry", methods=["POST"])
 def receive_data():
-    if request.method == "POST":
-        connection = smtplib.SMTP("__YOUR_SMTP_ADDRESS_HERE___")
-        connection.starttls()
-        connection.login(MY_EMAIL, MY_PASSWORD)
-        connection.sendmail(
-            from_addr=MY_EMAIL,
-            to_addrs=MY_EMAIL,
-            msg=f'Subject:New Message\n\nName: {request.form["username"]}\nEmail: {request.form["email"]}\nPhone: {request.form["phone"]}\nMessage:{request.form["message"]}'
-        )
-        return render_template("contact.html", msg_sent=True)
-    else:
-        return render_template("contact.html", msg_sent=False)
-
+    print(request.form["username"])
+    print(request.form["email"])
+    print(request.form["phone"])
+    print(request.form["message"])
+    return render_template("contact.html", msg_sent=True)
+    
 
 if __name__ == "__main__":
     app.run(debug=True)
