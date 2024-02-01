@@ -27,12 +27,8 @@ def show_post(index):
     return render_template("post.html", post=requested_post)
 
 
-@app.route("/contact")
-def contact():
-    return render_template("contact.html")
 
-
-@app.route("/form-entry", methods=["POST"])
+@app.route("/contact", methods=["POST", "GET"])
 def receive_data():
     if request.method == "POST":
         connection = smtplib.SMTP("__YOUR_SMTP_ADDRESS_HERE___")
