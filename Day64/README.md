@@ -6,4 +6,4 @@
 - Build a SQLite Database into the Flask Website
 - CSS & HTML
 ## My Top 10 Movies Website
-![day64](https://user-images.githubusercontent.com/98851253/162594261-6130be7b-e06b-452f-b0cb-b45cb6e76b47.gif)
+![day64](https://top-10-movies.gif)
