@@ -121,7 +121,7 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 | 67  | Blog III                 | Build up on the Flask Blog project. Add a database, delete and edit blog buttons.                                                                           | [Day 67](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day67) |
 | 68  | Authentication           | Intro to Flask Login, authentication + encryption methods, how to securely store passwords. 🔐                                                              | [Day 68](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day68) |
 | 69  | Blog IV                  | Build up on the Flask Blog project. Add user authentication, protect paths.                                                                                 | [Day 69](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day69) |
-| 70  | Finale: Publish Blog     | Quick tutorial on how to publish the blog using heroku and git.                                                                                             | [Day 70!!](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day70) |
+| 70  | Finale: Publish Blog     | Quick tutorial on how to publish the blog using heroku and git.                                                                                             | [Day 70](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day70) |
 
 ### Data Science with Google Colab 
 | Day | Project                         | Description                                                    | Link                                                                                                      |
