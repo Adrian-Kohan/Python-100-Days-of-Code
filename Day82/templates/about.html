@@ -1,0 +1,61 @@
+{% include "header.html" %}
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="/static/img/Adrian_pic.jpg" style="width:100%">
+  <a href="{{ url_for('home') }}" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="{{ url_for('about') }}" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="{{ url_for('projects') }}" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="{{ url_for('contact') }}" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Name is  Adrian</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I am a dedicated and detail-oriented professional with a background in veterinary medicine, as well as three
+      years of experience as a secretary and web manager. I have a strong foundation in computer skills and
+      problem-solving, which has led me to explore the world of programming. I am currently learning Python and have
+      achieved advanced level of proficiency in Python, SQL, and web development. Additionally, I am actively pursuing
+      expertise in C and JavaScript.
+      <br>
+      My commitment to responsibility and time management, coupled with my diverse skill set, allows me to excel in both
+      administrative and technical roles. I am eager to apply my unique blend of skills to contribute effectively to
+      projects and tasks, making me a valuable asset to any team or organization.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Python programming</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Web development</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+    </div>
+    <p class="w3-wide">SQL</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div><br>
+    <p class="w3-wide">Microsoft Office programs</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div><br>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i><a href="/static/file/adrian_cv.pdf">Download Resume</a>
+    </button>
+  </div>
+{% include "footer.html" %}

@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-size: 2.62rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.32rem;
+    font-family: 'Montserrat', sans-serif;
+    color:  #11999E;
+}
+
+
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: white;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.top-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+
+.footer-link {
+    color: #11999E;
+    margin: 5px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align: left;
+}
+
+.web-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.boy-img {
+    width: 12%;
+    padding-top: 50px;
+}
+
+.student-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.intro {
+    width: 50%;
+    margin: 10px auto 50px auto;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+.copyright {
+    color: #EAF6F6;
+    padding-top: 20px;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   font-weight: 100;
+   padding: 14px;
+   background-color: #11999E;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 25px;
+}
+
+.btn:hover {
+   background:  #1ED0C4;
+   border: solid #1ED0C4 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.contact-me {
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+.skills {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}

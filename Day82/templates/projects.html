@@ -1,0 +1,160 @@
+{% include "header.html" %}
+
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="/static/img/Adrian_pic.jpg" style="width:100%">
+  <a href="{{ url_for('home') }}" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="{{ url_for('about') }}" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="{{ url_for('projects') }}" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="{{ url_for('contact') }}" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+  <!-- Project Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">My Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Game</li>
+          <li class="w3-padding-16">
+            <h2>Pong</h2>
+            <span class="w3-opacity">The Famous Arcade Game</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">
+              <a href="https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day22" class="w3-bar-item w3-button" style="width:100% !important">View</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Bot</li>
+          <li class="w3-padding-16">
+            <h2>Instagram</h2>
+            <span class="w3-opacity">Automatically follow a specific user followers</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">
+              <a href="https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day52" class="w3-bar-item w3-button" style="width:100% !important">View</a>
+              </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">App</li>
+          <li class="w3-padding-16">
+            <h2>Password Generator</h2>
+            <span class="w3-opacity">An app for saving and generating passwords</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">
+              <a href="https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day29-30" class="w3-bar-item w3-button" style="width:100% !important">View</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Website</li>
+          <li class="w3-padding-16">
+            <h2>CV</h2>
+            <span class="w3-opacity">A personal CV website.</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">
+              <a href="{{ url_for('cv') }}" class="w3-bar-item w3-button" style="width:100% !important">View</a>
+              </button>
+          </li>
+        </ul>
+      </div>
+
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Game</li>
+          <li class="w3-padding-16">
+            <h2>Snake Game</h2>
+            <span class="w3-opacity">The Famous Snake Game</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">
+              <a href="https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day20-21" class="w3-bar-item w3-button" style="width:100% !important">View</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Automation</li>
+          <li class="w3-padding-16">
+            <h2>Birthday wisher</h2>
+            <span class="w3-opacity">Automatically sent email based on the birthday date.</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">
+              <a href="https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day52" class="w3-bar-item w3-button" style="width:100% !important">View</a>
+              </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">App</li>
+          <li class="w3-padding-16">
+            <h2>Guess The State!</h2>
+            <span class="w3-opacity">An app for learning the states of the United States!</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">
+              <a href="https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day29-30" class="w3-bar-item w3-button" style="width:100% !important">View</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Website</li>
+          <li class="w3-padding-16">
+            <h2>Top 10 Movies</h2>
+            <span class="w3-opacity">A website for saving your favorite movies.</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">
+              <a href="https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day64" class="w3-bar-item w3-button" style="width:100% !important">View</a>
+              </button>
+          </li>
+        </ul>
+      </div>
+        </div>
+    </div>
+  </div>
+      </div>
+    </div>
+  <!-- End Projects Section -->
+{% include "footer.html" %}
