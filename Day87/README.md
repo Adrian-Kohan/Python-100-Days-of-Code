@@ -5,4 +5,4 @@
 - Receiving Form Data with WTForms
 - Using Flask-Bootstrap as an Inherited Template
 ## Coffee & Wifi Project
-[!Day87](coffee-wifi.gif)
+![day87](coffee-wifi.gif)
