@@ -22,7 +22,7 @@ timer = None
 
 def start_timer():
     countdown(60)
-    text_input.delete()
+    text_input.delete(0,END)
 
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
