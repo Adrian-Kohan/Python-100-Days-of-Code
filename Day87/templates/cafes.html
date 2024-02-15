@@ -1,0 +1,59 @@
+{% extends 'bootstrap/base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block title %}Restaurants{% endblock %}
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{url_for('.static', filename='css/styles.css')}}">
+{% endblock %}
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+            <p>{{ wtf.quick_form(search, novalidate=True) }}</p>
+          <hr class="my-4">
+      <h1>All Cafes</h1>
+
+	  <table class="table">
+          <tr>
+              <td>Name</td>
+              <td>Maps Link</td>
+              <td>Image Link</td>
+              <td>Location</td>
+              <td>Number of seats</td>
+              <td>Has toilet</td>
+              <td>Has WiFi</td>
+              <td>Has sockets</td>
+              <td>Can take calls</td>
+              <td>Coffee price</td>
+              <td>Report close</td>
+              <td>Edit Cafe</td>
+          </tr>
+          {% for cafe in cafes %}
+            <tr>
+              <td>{{cafe["name"]}}</td>
+              <td><a href="{{cafe['map_url']}}">Maps Link</a></td>
+              <td><a href="{{cafe['img_url']}}">Image Link</a></td>
+              <td>{{cafe["location"]}}</td>
+              <td>{{cafe["seats"]}}</td>
+              <td>{{cafe["has_toilet"]}}</td>
+              <td>{{cafe["has_wifi"]}}</td>
+              <td>{{cafe["has_sockets"]}}</td>
+              <td>{{cafe["can_take_calls"]}}</td>
+              <td>{{cafe["coffee_price"]}}</td>
+                <td><a href="{{ url_for('delete_the_cafe', cafe_id=cafe.id) }}">✘</a></td>
+                <td><a href="{{ url_for('edit_cafe', cafe_id=cafe.id) }}">✍🏻</a></td>
+            </tr>
+          {% endfor %}
+          <tr><td><a href="{{ url_for('add_cafe')}}">➕ Add Cafe</a></td></tr>
+  	  </table>
+
+      <p><a href="/">Return to home page</a></p>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}
