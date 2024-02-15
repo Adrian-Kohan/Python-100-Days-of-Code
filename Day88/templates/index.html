@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="box">
+	<h1>To do list</h1>
+    <p>Welcome! Here you can track your goals.<br>
+    To start please register till you can access your list anytime.
+    </p>
+    <img src="/static/files/todo_pic.png" align="center">
+    {% if not logged_in: %}
+  <a href="{{ url_for('login') }}" class="btn btn-primary btn-block btn-large">Login</a>
+  <a href="{{ url_for('register') }}" class="btn btn-secondary btn-block btn-large">Register</a>
+    {% endif %}
+</div>
+
+{% endblock %}

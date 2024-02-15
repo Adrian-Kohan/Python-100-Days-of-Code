@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+{% block content %}
+
+
+<div class="container">
+  <h1 class="title">Welcome, {{name}}!</h1>
+  <br>
+  <p style="color: black; font-size:25;">Write down your work to below filed then hit enter to add to your list!</p>
+  <p>{{ wtf.quick_form(form, novalidate=True) }}</p>
+  {% if items != [] %}
+        <ul class="list-group">
+          {% for item in items %}
+            <li class="list-group-item list-group-item-warning">
+              <input class="item" type="checkbox" id="item" name="" value=""  data-width="5%">
+              <label for="item" data-width="5%" > {{item}} </label>
+            </li>
+          {% endfor %}
+        </ul>
+  {% endif  %}
+</div>
+{% endblock %}
