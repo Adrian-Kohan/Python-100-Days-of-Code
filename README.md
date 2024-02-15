@@ -141,23 +141,23 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 ### Portfolio material 📚
 | Day | Project              | Description                             | Link                                                                                                 |
 |-----|----------------------|-----------------------------------------|------------------------------------------------------------------------------------------------------|
-| 81  | Morse Code Converter | Convert morse code to english and back. | [Repo]() |
-| 82  | Portfolio Website | A website to show off your skills. | [Repo]() |
-| 83  | Tic Tac Toe | Built a text-based version of the Tic Tac Toe game. | [Repo]() |
-| 84  | Image Watermarking Desktop App | A program where you can upload images and add a watermark | [Repo]() |
-| 85  | Typing Speed Test App | A Tkinter GUI desktop application that tests your typing speed. | [Repo]() |
-| 86  | Breakout: The Famous Arcade Game | Using Python Turtle, build a clone of the 80s hit game Breakout. | [Repo]() |
-| 87  | Cafe and Wifi Website | Built a website that lists cafes with wifi and power for remote working. | [Repo]() |
-| 88  | To Do Agenda App | Built a todo list website with Flask. | [Repo]() |
-| 89  | Disappearing Text Writing App | A Tkinter GUI desktop application that clear your writings if you stop typing! | [Repo]() |
-| 90  | Convert PDF to Audiobook | A program where you can upload a pdf file and it will read it for you! | [Repo]() |
-| 91  | Image to Color List | A Tkinter GUI desktop application where you can upload an image and it will generate it's palette.  | [Repo]() |
-| 92  | Built a custom web scraper to collect data | ... | [Repo]() |
-| 93  | Google Dinosaur Game Bot | Automate the Google Dinosaur Game. | [Repo]() |
-| 94  | Space Invaders |  Using Python Turtle, build Space Invaders Game.
-| 95  | Custom API | Built a custom website using an API. | [Repo]() |
-| 96  | An Online Shop | An eCommerce website with payment processing. | [Repo]() |
-| 97  | Automate a task | A bot that check an online shop panel for orders and if you have any it will send you an email. | [Repo]() |
-| 98  | Analyzing and Visualizing the Space Race | Working with google colab to visualize data. | [Repo]() |
-| 99  | Analyzing Deaths Involving Police in the United States | Working with google colab to visualize data. | [Repo]() |
-| 100  | Predicting Earnings using Multivariable Regression | Working with google colab to visualize data. | [Repo]() |
+| 81  | Morse Code Converter | Convert morse code to english and back. | [Day 81](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day81) |
+| 82  | Portfolio Website | A website to show off your skills. | [Day 82](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day82) |
+| 83  | Tic Tac Toe | Built a text-based version of the Tic Tac Toe game. | [Day 83](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day83) |
+| 84  | Image Watermarking Desktop App | A program where you can upload images and add a watermark | [Day 84](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day84) |
+| 85  | Typing Speed Test App | A Tkinter GUI desktop application that tests your typing speed. | [Day 85](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day85) |
+| 86  | Breakout: The Famous Arcade Game | Using Python Turtle, build a clone of the 80s hit game Breakout. | [Day 86](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day86) |
+| 87  | Cafe and Wifi Website | Built a website that lists cafes with wifi and power for remote working. | [Day 87](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day87) |
+| 88  | To Do Agenda App | Built a todo list website with Flask. | [Day 88](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day88) |
+| 89  | Disappearing Text Writing App | A Tkinter GUI desktop application that clear your writings if you stop typing! | [Day 89](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day89) |
+| 90  | Convert PDF to Audiobook | A program where you can upload a pdf file and it will read it for you! | [Day 90](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day90) |
+| 91  | Image to Color List | A Tkinter GUI desktop application where you can upload an image and it will generate it's palette.  | [Day 91]() |
+| 92  | Built a custom web scraper to collect data | ... | [Day 92]() |
+| 93  | Google Dinosaur Game Bot | Automate the Google Dinosaur Game. | [Day 93]() |
+| 94  | Space Invaders |  Using Python Turtle, build Space Invaders Game. | [Day 96]() |
+| 95  | Custom API | Built a custom website using an API. | [Day 95]() |
+| 96  | An Online Shop | An eCommerce website with payment processing. | [Day 96]() |
+| 97  | Automate a task | A bot that check an online shop panel for orders and if you have any it will send you an email. | [Day 97]() |
+| 98  | Analyzing and Visualizing the Space Race | Working with google colab to visualize data. | [Day 98]() |
+| 99  | Analyzing Deaths Involving Police in the United States | Working with google colab to visualize data. | [Day 99]() |
+| 100  | Predicting Earnings using Multivariable Regression | Working with google colab to visualize data. | [Day 100]() |
