@@ -3,5 +3,5 @@
 - Finding and Selecting Particular Elements with BeautifulSoup
 - Use BeautifulSoup to Scrape Website Data
 - Scraping a Live Website
-## Book Scrapper
+## Goodreads Scrapper
 ![day92](book.gif)
