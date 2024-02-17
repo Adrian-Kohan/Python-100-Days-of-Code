@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+{% block content %}
+
+
+<div class="container">
+  <h1 class="title">Welcome, {{name}}!</h1>
+<script async
+      src="https://js.stripe.com/v3/buy-button.js">
+    </script>
+
+    <stripe-buy-button
+      buy-button-id="buy_btn_1OT4TeCA3TXXteKGMapDTpLw"
+      publishable-key="pk_test_51OT40eCA3TXXteKGJVwnHmifuO2a52N5jWadTfvNnuygrYtZsvEMPkmdiWnLhMQnFLh16lMdel4aebr2cLwCOk0G00A4hEOm2i"
+    >
+    </stripe-buy-button>
+</div>
+{% endblock %}
