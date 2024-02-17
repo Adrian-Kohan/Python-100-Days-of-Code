@@ -2,8 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import pyautogui as gui
 import time
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 import keyboard
 from PIL import Image, ImageGrab
 import time
@@ -16,9 +14,6 @@ s = Service(r"C:/Users/Adrian/Downloads/Compressed/chromedriver-win64/chromedriv
 
 driver = webdriver.Chrome(service=s)
 driver.get(URL)
-# time.sleep(5)
-# pyautogui.press('space')
-# driver.find_element(By.CSS_SELECTOR, value="body").send_keys(Keys.UP) # starts the game once the page has loaded
 
 
 def get_pixel(image, x, y):
