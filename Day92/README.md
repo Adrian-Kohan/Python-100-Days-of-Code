@@ -4,4 +4,4 @@
 - Use BeautifulSoup to Scrape Website Data
 - Scraping a Live Website
 ## Book Scrapper
-![day92](book.csv)
+![day92](book.gif)
