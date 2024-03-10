@@ -151,10 +151,10 @@ The course link: [100 Days of Code: The Complete Python Pro Bootcamp](https://ww
 | 88  | To Do Agenda App | Built a todo list website with Flask. | [Day 88](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day88) |
 | 89  | Disappearing Text Writing App | A Tkinter GUI desktop application that clear your writings if you stop typing! | [Day 89](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day89) |
 | 90  | Convert PDF to Audiobook | A program where you can upload a pdf file and it will read it for you! | [Day 90](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day90) |
-| 91  | Image to Color List | A Tkinter GUI desktop application where you can upload an image and it will generate it's palette.  | [Day 91]() |
+| 91  | Image to Color List | A Tkinter GUI desktop application where you can upload an image and it will generate it's palette.  | [Day 91](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day91) |
 | 92  | Built a custom web scraper to collect data | Use Beautiful Soup to scrap "Goodreads" website to make a book list. | [Day 92](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day92) |
 | 93  | Google Dinosaur Game Bot | Automate the Google Dinosaur Game. | [Day 93](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day93) |
-| 94  | Space Invaders |  Using Python Turtle, build Space Invaders Game. | [Day 96]() |
+| 94  | Space Invaders |  Using Python Turtle, build Space Invaders Game. | [Day 94]() |
 | 95  | Custom API | Built a custom website using an API. | [Day 95]() |
 | 96  | An Online Shop | An eCommerce website with payment processing. | [Day 96](https://github.com/Adrian-Kohan/Python-100-Days-of-Code/tree/main/Day96) |
 | 97  | Automate a task | A bot that check an online shop panel for orders and if you have any it will send you an email. | [Day 97]() |
