@@ -5,4 +5,4 @@
 - Using API to Check for Product Availability
 - Using API to Send Telegram Alerts/Messages
 ## Custom API
-<img width="319" alt="day97" src="order_checker.jpeg">
+<img width="319" alt="day97" src="order_checker.JPG">
