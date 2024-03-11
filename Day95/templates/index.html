@@ -1,0 +1,47 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+
+{% block styles %}
+  {{ super() }}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+{% endblock %}
+
+{% block title %}Search Words{% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <h1 class="heading">Search Words for their definitions</h1>
+    <div class="content">
+        {{ wtf.quick_form(form, novalidate=True) }}
+  </div>
+  <div class="card" >
+    <div class="front">
+      <div>
+        <div class="title">Definitions</div>
+        <ul>
+        {% for definition in definitions %}
+        <li><p class="review">{{definition}}</p></li>
+        {% endfor %}
+        </ul>
+    </div>
+    </div>
+    <div class="back">
+      <div>
+    <div class="title">Examples</div>
+        <ul>
+        {% for example in examples %}
+          <li><p class="review">{{example}}</p></li>
+        {% endfor %}
+        </ul>
+      </div>
+  </div>
+</div>
+
+
+{% endblock %}
