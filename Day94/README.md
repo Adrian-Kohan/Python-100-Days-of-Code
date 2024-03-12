@@ -5,4 +5,4 @@
 - Handling User Input (Player's Actions)
 - Implementing Event Loops
 ## Space Invaders
-![day94](https://user-images.githubusercontent.com/98851253/173201632-b6fcf00f-53f7-4b64-aa65-c44b53800e39.gif)
+<img width="319" alt="day97" src="space_ship.JPG">
